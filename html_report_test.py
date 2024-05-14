@@ -3,7 +3,7 @@ from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
 
 # Verilerinizi yükleyin
-with open('data.json') as f:
+with open('./data/data.json') as f:
     data = json.load(f)
 
 # Jinja2 ortamını ve şablon dosyasını ayarlayın
