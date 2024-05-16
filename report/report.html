@@ -8,20 +8,32 @@
 </head>
 <body>
     <h1>Dynamic Report</h1>
-    <p>Date: {{ date }}</p>
+    <p>Date: 2024-05-16</p>
     <table>
         <tr>
             <th>Name</th>
             <th>Age</th>
             <th>City</th>
         </tr>
-        {% for person in people %}
+        
         <tr>
-            <td>{{ person.name }}</td>
-            <td>{{ person.age }}</td>
-            <td>{{ person.city }}</td>
+            <td>Alice</td>
+            <td>30</td>
+            <td>New York</td>
         </tr>
-        {% endfor %}
+        
+        <tr>
+            <td>Bob</td>
+            <td>24</td>
+            <td>Los Angeles</td>
+        </tr>
+        
+        <tr>
+            <td>Charlie</td>
+            <td>29</td>
+            <td>Chicago</td>
+        </tr>
+        
     </table>
 </body>
 </html>
